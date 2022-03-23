@@ -1,4 +1,8 @@
 package dk.MMJT.BE;
 
-public class TicketType {
+public enum TicketType {
+    VIP,
+    STANDARD,
+    BACKSTAGE,
+
 }

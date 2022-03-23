@@ -1,5 +1,6 @@
 package dk.MMJT.BE;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Event {
@@ -7,12 +8,13 @@ public class Event {
     private String eventName;
     private Date startDate;
     private String eventLocation;
+    ArrayList<Ticket> allCustomers = new ArrayList<>();
 
-    public Event(int eventID, String eventname, String location, Date date) {
+    public Event(int eventID, String eventName, String eventLocation, Date startDate) {
         this.eventID = eventID;
-        eventName = eventname;
-        startDate = date;
-        eventLocation = location;
+        this.eventName = eventName;
+        this.startDate = startDate;
+        this.eventLocation = eventLocation;
     }
 
 
