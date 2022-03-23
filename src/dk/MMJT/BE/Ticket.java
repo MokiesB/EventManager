@@ -5,6 +5,8 @@ public class Ticket {
     private int id;
     private int eventID;
     private int price;
+    private TicketType type;
+    // if(Ticket.type = TicketType.FOODINCLUDED) string type = "Food included"
 
     public Ticket(String name) {
         this.Name = name;
