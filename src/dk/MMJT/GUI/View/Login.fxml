@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="dk.MMJT.GUI.Controllers.Login"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="1055.0" prefWidth="1434.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.MMJT.GUI.Controllers.Login">
+   <children>
+      <Pane prefHeight="1055.0" prefWidth="1434.0" style="-fx-background-color: #30b9ec;">
+         <children>
+            <JFXButton layoutX="653.0" layoutY="705.0" prefHeight="27.0" prefWidth="128.0" style="-fx-border-color: black; -fx-background-color: White;" text="Login" />
+            <TextField layoutX="581.0" layoutY="528.0" prefHeight="25.0" prefWidth="271.0" promptText="Username" />
+            <TextField layoutX="581.0" layoutY="585.0" prefHeight="25.0" prefWidth="271.0" promptText="Password" />
+            <Text layoutX="530.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eventful">
+               <font>
+                  <Font name="System Bold Italic" size="96.0" />
+               </font>
+            </Text>
+            <Text layoutX="660.0" layoutY="507.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Login" wrappingWidth="114.10546875">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
 </AnchorPane>
