@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="1134.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.MMJT.GUI.View.Events">
+   <children>
+      <JFXButton layoutY="-1.0" prefHeight="40.0" prefWidth="1134.0" text="Return" />
+      <JFXButton layoutX="515.0" layoutY="266.0" text="Curent Events" />
+      <JFXButton layoutX="382.0" layoutY="393.0" text="Create Event" />
+      <JFXButton layoutX="776.0" layoutY="464.0" text="Delete Event" />
+   </children>
+</AnchorPane>

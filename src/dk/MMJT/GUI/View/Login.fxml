@@ -11,7 +11,11 @@
    <children>
       <Pane prefHeight="1055.0" prefWidth="1434.0" style="-fx-background-color: #30b9ec;">
          <children>
+<<<<<<< Updated upstream
             <JFXButton layoutX="653.0" layoutY="705.0" prefHeight="27.0" prefWidth="128.0" style="-fx-border-color: black; -fx-background-color: White;" text="Login" />
+=======
+            <JFXButton layoutX="653.0" layoutY="705.0" onAction="#OpenMainMenu" prefHeight="27.0" prefWidth="128.0" ripplerFill="#4bb1dd" style="-fx-border-color: black; -fx-background-color: White;" text="Login" />
+>>>>>>> Stashed changes
             <TextField layoutX="581.0" layoutY="528.0" prefHeight="25.0" prefWidth="271.0" promptText="Username" />
             <TextField layoutX="581.0" layoutY="585.0" prefHeight="25.0" prefWidth="271.0" promptText="Password" />
             <Text layoutX="530.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eventful">

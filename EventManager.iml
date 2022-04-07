@@ -8,5 +8,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jfoenix" level="project" />
+<<<<<<< Updated upstream
+=======
+    <orderEntry type="library" name="google.zxing.core" level="project" />
+    <orderEntry type="library" name="google.zxing.javase" level="project" />
+>>>>>>> Stashed changes
   </component>
 </module>
