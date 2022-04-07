@@ -8,7 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jfoenix" level="project" />
-    <orderEntry type="library" name="google.zxing.javase" level="application" />
-    <orderEntry type="library" name="google.zxing.core" level="application" />
+    <orderEntry type="library" name="google.zxing.core" level="project" />
+    <orderEntry type="library" name="google.zxing.javase" level="project" />
   </component>
 </module>

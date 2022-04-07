@@ -12,7 +12,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("dk/MMJT/GUI/View/Login.Fxml"));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Attendance System");
+        primaryStage.setTitle("Event Manager");
 
         primaryStage.show();
     }
