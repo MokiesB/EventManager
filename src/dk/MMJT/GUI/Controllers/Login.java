@@ -31,7 +31,7 @@ public class Login implements Initializable {
         Parent root;
 
         try{
-            root = FXMLLoader.load(getClass().getResource("dk/MMJT/GUI/View/MainMenu.Fxml"));
+            root = FXMLLoader.load(getClass().getResource("/dk/MMJT/GUI/View/MainMenu.Fxml"));
             Stage stage = new Stage();
             stage.setTitle("Main Menu");
             stage.setScene(new Scene(root));

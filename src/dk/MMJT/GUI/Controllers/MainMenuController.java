@@ -14,7 +14,7 @@ import java.util.ResourceBundle;
 public class MainMenuController implements Initializable {
 
     public void OpenEvents(ActionEvent actionEvent) throws IOException {
-        Parent part = FXMLLoader.load(getClass().getResource("dk/MMJT/GUI/View/Events.Fxml"));
+        Parent part = FXMLLoader.load(getClass().getResource("/dk/MMJT/GUI/View/Events.Fxml"));
         Stage stage = new Stage();
         Scene scene = new Scene(part);
         stage.setScene(scene);
@@ -22,7 +22,7 @@ public class MainMenuController implements Initializable {
     }
 
     public void OpenTickets(ActionEvent actionEvent) throws IOException {
-        Parent part = FXMLLoader.load(getClass().getResource("dk/MMJT/GUI/View/Tickets.Fxml"));
+        Parent part = FXMLLoader.load(getClass().getResource("/dk/MMJT/GUI/View/Tickets.Fxml"));
         Stage stage = new Stage();
         Scene scene = new Scene(part);
         stage.setScene(scene);
@@ -30,7 +30,7 @@ public class MainMenuController implements Initializable {
     }
 
     public void OpenUser(ActionEvent actionEvent) throws IOException {
-        Parent part = FXMLLoader.load(getClass().getResource("dk/MMJT/GUI/View/User.Fxml"));
+        Parent part = FXMLLoader.load(getClass().getResource("/dk/MMJT/GUI/View/User.Fxml"));
         Stage stage = new Stage();
         Scene scene = new Scene(part);
         stage.setScene(scene);
