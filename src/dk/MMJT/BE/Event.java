@@ -1,26 +1,22 @@
 package dk.MMJT.BE;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 public class Event {
-    private final int eventID;
+
     private String eventName;
-    private Date startDate;
+    private String startDate;
     private String eventLocation;
     ArrayList<Ticket> allCustomers = new ArrayList<>();
 
-    public Event(int eventID, String eventName, String eventLocation, Date startDate) {
-        this.eventID = eventID;
+    public Event(String eventName, String eventLocation, String startDate) {
         this.eventName = eventName;
         this.startDate = startDate;
         this.eventLocation = eventLocation;
     }
 
 
-    public int getEventID() {
-        return eventID;
-    }
+
 
     public String getEventName() {
         return eventName;
@@ -30,11 +26,11 @@ public class Event {
         this.eventName = eventName;
     }
 
-    public Date getStartDate() {
+    public String getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
 
