@@ -23,12 +23,16 @@ public class EventsController implements Initializable {
     @FXML
     private TableColumn<Event, String> EventDate;
 
+    @FXML
+    private TableColumn<Event, String> EventLocation;
+
 
     @FXML
     private void populateTableview (){
 
-        EventName.setCellValueFactory((new PropertyValueFactory<Event,String>("Name")));
-        EventDate.setCellValueFactory((new PropertyValueFactory<Event,String>("Date")));
+        EventName.setCellValueFactory((new PropertyValueFactory<Event,String>("eventName")));
+        EventDate.setCellValueFactory((new PropertyValueFactory<Event,String>("startDate")));
+        EventLocation.setCellValueFactory((new PropertyValueFactory<Event,String>("eventLocation")));
 
         System.out.println(DALEvents.getEvent());
         EventTableView.setItems(DALEvents.getEvent());
