@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1055.0" prefWidth="1434.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.MMJT.GUI.Controllers.MainMenuController">
+   <children>
+      <JFXButton fx:id="eventsbutton" layoutY="55.0" onAction="#OpenEvents" prefHeight="1000.0" prefWidth="478.0" style="-fx-background-color: #30b9ec; -fx-border-color: black;" text="Events">
+         <font>
+            <Font name="System Bold Italic" size="58.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="ticketsbutton" layoutX="478.0" layoutY="55.0" onAction="#OpenTickets" prefHeight="1000.0" prefWidth="478.0" style="-fx-background-color: #30b9ec; -fx-border-color: black;" text="Tickets">
+         <font>
+            <Font name="System Bold Italic" size="58.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="userbutton" layoutX="956.0" layoutY="55.0" onAction="#OpenUser" prefHeight="1000.0" prefWidth="478.0" style="-fx-background-color: #30b9ec; -fx-border-color: black;" text="Manage Users" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="58.0" />
+         </font>
+      </JFXButton>
+      <JFXButton prefHeight="55.0" prefWidth="1434.0" style="-fx-background-color: #30b9ec; -fx-border-color: black;" text="Exit">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
